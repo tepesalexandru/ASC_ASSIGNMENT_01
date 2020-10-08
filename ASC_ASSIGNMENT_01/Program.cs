@@ -27,7 +27,8 @@ namespace ASC_ASSIGNMENT_01
             try
             {
                 int n = int.Parse(Console.ReadLine());
-                int luni = Convert.ToInt32(Math.Log(n, 2) * 18);
+                
+                int luni = Convert.ToInt32(Math.Floor((Math.Log(n, 2)) * 18f));
                 int ani = luni / 12;
                
                 luni = luni % 12;
