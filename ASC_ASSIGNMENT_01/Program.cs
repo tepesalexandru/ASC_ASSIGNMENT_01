@@ -13,10 +13,8 @@ namespace ASC_ASSIGNMENT_01
              * Daca in prezent avem o putere de calcul egala cu x, si la fiecare 18 luni aceasta se inmulteste cu 2,
              * inseamna ca peste un an jumate ( 1,5 ani ) vom avea o putere de calcul egala cu x * 2, iar peste 3 ani vom avea
              * o putere de calcul egala cu x * 2 * 2, care este egala cu x * 2^2, si asa mai departe. De aici obtinem ca puterea de calcul
-             * va fi egala cu x * 2^(                                                                                                                                * 
-             * 
-             * 
-             * 
+             * va fi egala cu x * 2^(y/1.5) peste y ani. Folosind inversul functiei putere, adica logaritmul, putem afla in cati ani                                                                                                                          * 
+             * vom ajunge la acea putere. De aici, rezultatul nostru: puterea noastra va fi de n ori mai mare in log2(n) * 1.5 ani.
              * */
 
             Console.WriteLine("Legea lui Moore indica faptul ca puterea de calcul se dubleaza la fiecare 18 luni.");
